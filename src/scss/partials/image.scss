@@ -1,0 +1,19 @@
+@use '../global/variables.scss' as *;
+@use '../global/mixins.scss' as *;
+
+.images {
+  width: 400px;
+  aspect-ratio: 1/1.333;
+  position: relative;
+  &__wrapper {
+    position: relative;
+  }
+}
+
+.goat-image {
+  position: absolute;
+  &--background {
+  }
+  &--foreground {
+  }
+}
